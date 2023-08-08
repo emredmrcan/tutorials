@@ -1,0 +1,22 @@
+route:
+    receiver: tutorial-alert-manager
+    repeat_interval: 1m
+
+receivers:
+  - name: 'tutorial-alert-manager'
+    telegram_configs: # Check README.md to learn how to create telegram config
+      - bot_token: tutorial_token
+        api_url: https://api.telegram.org
+        chat_id: -12345678
+        parse_mode: ''
+
+    email_configs:
+      # The email address to send notifications to.
+      - to: 'tutorial.inbox@gmail.com'
+        # The sender's address.
+        from: 'tutorial.outbox@gmail.com'
+        # The SMTP host through which emails are sent.
+        smarthost: 'smtp.gmail.com:587'
+        # SMTP authentication information.
+        auth_username: 'tutorial.outbox@gmail.com'
+        auth_password: 'tutorial_password'
