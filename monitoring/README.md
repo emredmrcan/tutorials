@@ -8,10 +8,10 @@
     Open a terminal in your project directory. Run `./mvnw spring-boot:run`
 
 # Running Prometheus, Grafana, and Alertmanager with Docker Compose
-Navigate to the directory 'docker-log-management' containing Docker Compose configuration files and start the services:
+Navigate to the directory 'docker' containing Docker Compose configuration files and start the services:
 
 ```shell
-cd docker-log-management
+cd docker
 docker-compose up
 ```
 This will download the necessary images and start the Prometheus, Grafana, and Alertmanager containers.
@@ -43,7 +43,7 @@ Once the containers are up and running, you can access the services using the fo
 
 ### Step 3: Configure Alertmanager
 
-Open the alertmanager.yml configuration file (/docker-log-management/alert-manager/config/alertmanager.yml).
+Open the alertmanager.yml configuration file (/docker/alert-manager/config/alertmanager.yml).
 
 Replace YOUR_BOT_TOKEN and YOUR_CHAT_ID with the actual values.
 

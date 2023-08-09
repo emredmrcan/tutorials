@@ -36,6 +36,6 @@ target/
 # Gradle
 .gradle/
 
-log-management/docker-log-management/grafana/tmp
-log-management/docker-log-management/prometheus/tmp
-log-management/docker-log-management/alert-manager/tmp
+monitoring/docker/grafana/tmp
+monitoring/docker/prometheus/tmp
+monitoring/docker/alert-manager/tmp

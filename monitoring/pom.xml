@@ -9,10 +9,10 @@
     <relativePath/> <!-- lookup parent from repository -->
   </parent>
   <groupId>com.garnet</groupId>
-  <artifactId>log-management</artifactId>
+  <artifactId>monitoring</artifactId>
   <version>0.0.1-SNAPSHOT</version>
-  <name>log-management</name>
-  <description>log-management</description>
+  <name>monitoring</name>
+  <description>monitoring</description>
   <properties>
     <java.version>17</java.version>
   </properties>

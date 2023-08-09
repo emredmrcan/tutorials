@@ -1,13 +1,13 @@
-package com.garnet.logmanagement;
+package com.garnet.monitoring;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class LogManagementApplication {
+public class MonitoringApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(LogManagementApplication.class, args);
+        SpringApplication.run(MonitoringApplication.class, args);
     }
 
 }
